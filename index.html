@@ -1,225 +1,250 @@
 <!DOCTYPE html>
-<html class="light scroll-smooth" lang="en" style="scroll-padding-top: 5rem;"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>El Capitan Mariscos y Tacos</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "primary": "#0093E1", // deep blue
-              "primary-light": "#5FC6EB", // lighter blue
-              "accent-red": "#C32C34",
-              "accent-orange": "#E8972E",
-              "text-primary": "#1B5279", // dark blue
-              "background-light": "#F0F8FF", // AliceBlue - a very light blue for sandy feel
-              "background-dark": "#0A2239", // Darker blue for dark mode bg
-              "text-light": "#1B5279",
-              "text-dark": "#F0F8FF",
-            },
-            fontFamily: {
-              "heading": ["Bebas Neue", "sans-serif"],
-              "body": ["Montserrat", "sans-serif"]
-            },
-            borderRadius: {
-              "DEFAULT": "0.25rem",
-              "lg": "0.5rem",
-              "xl": "0.75rem",
-              "full": "9999px"
-            },
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Mariscos y Tacos El Capitan</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css">
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#C32C34",
+            "accent-light": "#5FC6EB",
+            "accent-dark": "#0093E1",
+            "background-light": "#FFFFFF",
+            "background-dark": "#1c1818",
+            "foreground-light": "#1b0e0e",
+            "foreground-dark": "#fcf8f8",
+          },
+          fontFamily: {
+            "display": ["Plus Jakarta Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px"
           },
         },
-      }
-    </script>
-<style>
-      .material-symbols-outlined {
-        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-      }
-    </style>
-</head>
-<body class="bg-background-light dark:bg-background-dark font-body text-text-light dark:text-text-dark antialiased">
-<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root">
-<div class="layout-container flex h-full grow flex-col">
-<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-primary/20 bg-background-light/80 px-4 py-3 backdrop-blur-sm sm:px-6 lg:px-8 dark:bg-background-dark/80">
-<a class="flex items-center gap-4" href="#">
-<span class="material-symbols-outlined text-primary text-3xl dark:text-primary-light"> anchor </span>
-<h2 class="font-heading text-2xl tracking-widest text-text-primary dark:text-text-dark">El Capitan</h2>
-</a>
-<nav class="hidden items-center gap-8 md:flex">
-<a class="text-sm font-medium uppercase tracking-wider text-text-primary transition-colors hover:text-accent-red dark:text-text-dark dark:hover:text-accent-orange" href="#menu">Menu</a>
-<a class="text-sm font-medium uppercase tracking-wider text-text-primary transition-colors hover:text-accent-red dark:text-text-dark dark:hover:text-accent-orange" href="#about">About Us</a>
-<a class="text-sm font-medium uppercase tracking-wider text-text-primary transition-colors hover:text-accent-red dark:text-text-dark dark:hover:text-accent-orange" href="#locations">Locations</a>
-<a class="text-sm font-medium uppercase tracking-wider text-text-primary transition-colors hover:text-accent-red dark:text-text-dark dark:hover:text-accent-orange" href="#contact">Contact</a>
-</nav>
-<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-accent-red text-white text-sm font-bold uppercase tracking-wider shadow-md transition-transform hover:scale-105" href="#contact">
-<span class="truncate">Order Now</span>
-</a>
-</header>
-<main class="flex flex-1 justify-center">
-<div class="layout-content-container flex w-full flex-col">
-<section class="relative flex min-h-[calc(100vh-65px)] w-full flex-col overflow-hidden bg-cover bg-center bg-no-repeat" style='background-image: linear-gradient(rgba(27, 82, 121, 0.7) 0%, rgba(0, 147, 225, 0.9) 100%), url("https://images.unsplash.com/photo-1542296332-9e69c1355091?q=80&amp;w=2070&amp;auto=format&amp;fit=crop");'>
-<div class="container mx-auto grid grow grid-cols-1 items-center gap-12 p-4 text-center text-white lg:grid-cols-2 lg:text-left">
-<div class="flex flex-col items-center gap-4 lg:items-start">
-<h1 class="font-heading text-5xl font-black tracking-widest md:text-7xl">
-                                    The Captain's Catch
-                                </h1>
-<h2 class="max-w-2xl font-body text-lg font-normal leading-normal md:text-xl">
-                                    Experience the fresh, vibrant flavors of coastal Mexico, served with passion from our kitchen to your plate.
-                                </h2>
-<a class="mt-4 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-accent-orange text-white text-base font-bold uppercase tracking-wider shadow-lg transition-transform hover:scale-105" href="#menu">
-<span class="truncate">View Our Menu</span>
-</a>
-</div>
-<div class="relative flex items-center justify-center">
-<div class="relative aspect-square w-full max-w-md rounded-full shadow-2xl lg:max-w-lg">
-<img alt="A vibrant platter of fresh shrimp tacos with colorful toppings" class="h-full w-full rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPqEBvA_wXnd7VJAv-vhs39nKavLCKCLNUYIsFHNCvfAtMyC3QUz_YIeolCN4j5UloR7gUrlOMXxWhvlKw7uL1-MUGb0gKVIbVDzh2LKdNv1zC_W-fJvxtErdJBWoeR8kBT9EFT2FmcdRXPtc8uR3T0_Qge0k182fP0M5wPL1KGgC0lNOGMm51IzJJAhPXJrQDnwtYwPGyQw1KcACb1s6rALDh2v79a7j37JnHC705UWscmJIMF9jTwB4V3pE5IoRKx40uIMR-Yjo"/>
-</div>
-</div>
-</div>
-</section>
-<section class="py-16 px-4 sm:px-6 lg:px-8" id="menu">
-<div class="mx-auto max-w-5xl">
-<h2 class="text-center font-heading text-5xl tracking-widest text-primary dark:text-primary-light">Our Menu</h2>
-<h3 class="mt-12 mb-4 border-b-2 border-primary/20 pb-2 font-heading text-3xl tracking-wider text-text-primary dark:text-text-dark">Tacos</h3>
-<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-<div class="flex flex-col gap-3">
-<div class="w-full aspect-square rounded-lg bg-cover bg-center shadow-md" data-alt="Close up of a fish taco with cabbage slaw and sauce" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDxEBbEaoeiYJBtiAxCJjOwU7A9iV6ly-c3xbXLeREREfK2aM_H5KUQh-7jL8IdFhdsVCA61hShunpWcB2yjcxzydzcLTlX5g-PKxbZFk8Etgp5Iro0-OGwR2hO3-WSXN6IUs1ee13FPZrzyellFLUHVe_zbY51YAGTOxI04vXQyBekghIW_HuEg_ex7xNNp4IuhGy5NS92iYyLjg4lDVTsLwDKfPyTljwUnQ0IGpyitmu3rBQw5tOWQiJdxnx2SM_FRoZEzr8Bpys");'></div>
-<div>
-<p class="font-heading text-xl tracking-wider">Taco de Pescado</p>
-<p class="text-text-light/80 dark:text-text-dark/80 text-sm">Crispy battered fish, cabbage slaw, chipotle aioli. A true classic.</p>
-<p class="mt-1 font-bold text-text-primary dark:text-primary-light">$4.50</p>
-</div>
-</div>
-<div class="flex flex-col gap-3">
-<div class="w-full aspect-square rounded-lg bg-cover bg-center shadow-md" data-alt="Two shrimp tacos on a plate with lime wedges" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtkbui_NfL-eR20JS_jIYr0sGKtfv6KjVQyHgeqAcrY-8RMRoZ-nT3UpGDP0wjKhfAXfVko6xSNQ10z-qa_OsMcJm9QF_jSut0i7imMreh-dC1bh7on-DDyKjEmiEluujkTPLl3ClAdKviuNSEY8YZbo0LR_YXXZduMRQfsK6d3OvHCDEwFQy1kZAqkq2NOwWlPcazy-cQ70JwyP1eN4UqLd-aSXbnYAab4HlziRPC0Ds1t7tUIvcV_Yrxo8VdGq9e5DuTCrSp4Nc");'></div>
-<div>
-<p class="font-heading text-xl tracking-wider">Taco de Camarón</p>
-<p class="text-text-light/80 dark:text-text-dark/80 text-sm">Juicy grilled shrimp, pico de gallo, and fresh avocado salsa.</p>
-<p class="mt-1 font-bold text-text-primary dark:text-primary-light">$5.00</p>
-</div>
-</div>
-<div class="flex flex-col gap-3">
-<div class="w-full aspect-square rounded-lg bg-cover bg-center shadow-md" data-alt="Grilled octopus tacos on a dark plate" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuApQowd9uxPWkbGqgROdK5ZY2VQQUhWYIoiG7C6JBzXL8WGo7SL0sDUohVvKHwbrLRSkHgY0Pfun1v5U_nAy0eZTPsmW-jY4DMrYnyORUYxHGJwJjWX5VrMTQ1GjJJWaAn4NIvtfx47wP-qw8zBRZYVeZL7VhG8gAVQEuHJl9MPtLynH2ukE6lTHE9AbK3xOY1fqvlsIs2dTVRLS6YMnHylwi-uNVX6BcYs2-JFE8hyTZCRDfd8w9HpxCLds7oWPg9n8R9MdoelsnM");'></div>
-<div>
-<p class="font-heading text-xl tracking-wider">Taco de Pulpo</p>
-<p class="text-text-light/80 dark:text-text-dark/80 text-sm">Tender, flavorful octopus served with a garlic mojo sauce.</p>
-<p class="mt-1 font-bold text-text-primary dark:text-primary-light">$6.50</p>
-</div>
-</div>
-</div>
-<h3 class="mt-16 mb-4 border-b-2 border-primary/20 pb-2 font-heading text-3xl tracking-wider text-text-primary dark:text-text-dark">Mariscos</h3>
-<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-<div class="flex flex-col gap-3">
-<div class="w-full aspect-square rounded-lg bg-cover bg-center shadow-md" data-alt="Fresh fish ceviche in a glass bowl with tortilla chips" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC5crneWStbHoS-gqvobaj5L5wAvCjTBhQZ0n7qSCMmKFWSVvRYwGJzYf7vONmL3UWsJy34vwdUiGNBFCtqLR6QvPqP3UdP4NveHr5MgcBGn28GachOpgoWU6kRVxKiTL5ulzeXGX-eohomzXgZrPEDIGwa5Qz09U6EuumPCHXIPHeHEteXt5P9qB4Hc5Ccwd_FZNTXe6eJ7o9ZmFO80DTCwO-uj2yFLZLz9YR7u1R1fPcTpLTKMPCWzXhE1wiCAl-42WkkXS0q6Sk");'></div>
-<div>
-<p class="font-heading text-xl tracking-wider">Ceviche de Pescado</p>
-<p class="text-text-light/80 dark:text-text-dark/80 text-sm">Fresh fish cured in lime juice, with onion, cilantro, and tomato.</p>
-<p class="mt-1 font-bold text-text-primary dark:text-primary-light">$12.00</p>
-</div>
-</div>
-<div class="flex flex-col gap-3">
-<div class="w-full aspect-square rounded-lg bg-cover bg-center shadow-md" data-alt="Spicy shrimp aguachile with cucumber and red onion" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWKIyCN0yb3cpjFUdqFFZ8SeGDxDY6MrZEKBQzVDtdW1R3cPufTuZZFE0PPjSbqYYYBGiZpZZbw4KIY2W-t3XaIxOaYFls27vk3Bjb9VVG7kG_WmctHFEggJK-vmG6grGiln_tRiFHlsoCE1-6690OAlRlTDLq6nYXiADhUjxGjBZ3bpcl0mRIaLhILlTFdgJwUMcuXJw3UCjV85K_ZkPjxiIe2k6FU-siQWCjvyEtOWz2rg2J3KzO-QsJbnS4Xwk-6qyN31Ro910");'></div>
-<div>
-<p class="font-heading text-xl tracking-wider">Aguachile</p>
-<p class="text-text-light/80 dark:text-text-dark/80 text-sm">Spicy shrimp submerged in lime, chili, cucumber, and red onion.</p>
-<p class="mt-1 font-bold text-text-primary dark:text-primary-light">$15.00</p>
-</div>
-</div>
-<div class="flex flex-col gap-3">
-<div class="w-full aspect-square rounded-lg bg-cover bg-center shadow-md" data-alt="Classic Mexican shrimp cocktail in a large glass" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuChlksA3_h0poJMeCWr-_9tyyjfHUTftqYXiubqmoxqiLCWXsZihA7aTU2mjpdrhatyJkeBnTwlUt5osBuImmFx1bJd1A0lXRGm4TigmqTOfu58wWq0g_Ms249fqEk2icP6TE-kE-pn48FcGNIi5DvwHz-UqcwYQkB3c93bN63wRH15tiXaPTUjUOlWsNJtu1I03GDuKw9tErYcUUNXmzT4B15MS0vvbxv60D9dtyxHdD9urBHvp5Tpxml-jfCOTF0y-FLLaXyLZeE");'></div>
-<div>
-<p class="font-heading text-xl tracking-wider">Coctel de Camarón</p>
-<p class="text-text-light/80 dark:text-text-dark/80 text-sm">Classic shrimp cocktail with avocado, onion, and cilantro.</p>
-<p class="mt-1 font-bold text-text-primary dark:text-primary-light">$14.00</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="bg-primary-light/10 py-16 px-4 sm:px-6 lg:px-8 dark:bg-primary/20" id="about">
-<div class="mx-auto grid max-w-5xl items-center gap-8 md:grid-cols-2 md:gap-12">
-<div class="w-full aspect-[4/3] rounded-lg bg-cover bg-center shadow-xl" data-alt="A brightly colored food truck with the El Capitan logo parked by the beach" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2ImJ5ua7ePkiNQf1C_ig6BuUhfEXAISAwfq-EG1G2V0p8B_twAeuQHrniX8dLqcdU68-_VIARvAkUWWkSW5WTkv03zGzPq3K2YCMFeeF2IaP5H4NOcVEVodfk8yT3CWNecSabdN5O174SCU5vVbfceIKxEAI66K5aYt_GoAHocsQyQVAXsXTJ_TxLq8d42cvVC1_4T1aSSQuP7NznwkRsExAkQOlfAk3Qhxpqcp7TnRmukJ4FsKQJKaUckSFer3haEe8N5_w1qYQ");'></div>
-<div class="flex flex-col gap-4">
-<h2 class="font-heading text-5xl tracking-widest text-primary dark:text-primary-light">Our Story</h2>
-<p class="text-text-light/90 dark:text-text-dark/90">
-                                    Born from a love for the sea and a passion for authentic Mexican cuisine, El Capitan was founded to bring the taste of the coast to the city streets. Our captain, a third-generation fisherman, hand-selects the freshest seafood every morning.
-                                </p>
-<p class="text-text-light/90 dark:text-text-dark/90">
-                                    We believe in simple, powerful flavors. Our recipes are family heirlooms, passed down through generations, combining traditional techniques with a modern twist. From our signature fish tacos to our fiery aguachile, every dish tells a story of heritage, freshness, and dedication.
-                                </p>
-</div>
-</div>
-</section>
-<section class="py-16 px-4 sm:px-6 lg:px-8" id="locations">
-<div class="mx-auto grid max-w-5xl items-center gap-8 md:grid-cols-2 md:gap-12">
-<div class="flex flex-col gap-4">
-<h2 class="font-heading text-5xl tracking-widest text-primary dark:text-primary-light">Find Us</h2>
-<p class="text-text-light/90 dark:text-text-dark/90">
-                                    Our food truck is always on the move, bringing fresh seafood to a neighborhood near you. Check our current location below!
-                                </p>
-<div class="mt-4 space-y-4">
-<div>
-<h3 class="font-heading text-xl tracking-wider text-primary dark:text-primary-light">Downtown Art Walk</h3>
-<p class="text-sm">123 Gallery Row, Los Angeles, CA</p>
-</div>
-<div>
-<h3 class="font-heading text-xl tracking-wider text-primary dark:text-primary-light">Hours of Operation</h3>
-<ul class="text-sm list-inside">
-<li><span class="font-semibold">Mon - Thu:</span> 11:00 AM - 9:00 PM</li>
-<li><span class="font-semibold">Fri - Sat:</span> 11:00 AM - 11:00 PM</li>
-<li><span class="font-semibold">Sunday:</span> 12:00 PM - 8:00 PM</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="w-full aspect-[4/3] overflow-hidden rounded-lg shadow-xl">
-<iframe allowfullscreen="" data-location="Los Angeles, CA" height="100%" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7001402283023!2d-118.2436849847844!3d34.05223498060678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c634253dfd01%3A0x23293e8e9b813b5!2sDowntown%2C%20Los%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1633042971234!5m2!1sen!2s" style="border:0;" width="100%"></iframe>
-</div>
-</div>
-</section>
-<section class="bg-primary-light/10 py-16 px-4 sm:px-6 lg:px-8 dark:bg-primary/20" id="contact">
-<div class="mx-auto max-w-2xl text-center">
-<h2 class="font-heading text-5xl tracking-widest text-primary dark:text-primary-light">Get in Touch</h2>
-<p class="mt-4 text-text-light/90 dark:text-text-dark/90">Have a question, a special request, or want to place a large order? Drop us a line!</p>
-<p class="mt-6 font-heading text-3xl tracking-wider text-accent-red">Call to Order: (555) 123-4567</p>
-<form class="mt-8 grid grid-cols-1 gap-6 text-left">
-<div>
-<label class="font-body text-sm font-medium" for="name">Name</label>
-<input class="mt-1 block w-full rounded-md border-text-primary/30 bg-background-light shadow-sm focus:border-accent-red focus:ring focus:ring-accent-red focus:ring-opacity-50 dark:bg-background-dark dark:border-text-dark/30" id="name" name="name" type="text"/>
-</div>
-<div>
-<label class="font-body text-sm font-medium" for="email">Email or Phone</label>
-<input class="mt-1 block w-full rounded-md border-text-primary/30 bg-background-light shadow-sm focus:border-accent-red focus:ring focus:ring-accent-red focus:ring-opacity-50 dark:bg-background-dark dark:border-text-dark/30" id="email" name="email" type="text"/>
-</div>
-<div>
-<label class="font-body text-sm font-medium" for="message">Message</label>
-<textarea class="mt-1 block w-full rounded-md border-text-primary/30 bg-background-light shadow-sm focus:border-accent-red focus:ring focus:ring-accent-red focus:ring-opacity-50 dark:bg-background-dark dark:border-text-dark/30" id="message" name="message" rows="4"></textarea>
-</div>
-<button class="w-full cursor-pointer justify-center rounded-lg h-12 px-6 bg-accent-red text-white text-base font-bold uppercase tracking-wider shadow-lg transition-transform hover:scale-105" type="submit">
-                                    Send Message
-                                </button>
-</form>
-</div>
-</section>
-</div>
-</main>
-<footer class="w-full border-t border-primary/20 bg-background-light dark:bg-background-dark">
-<div class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 py-6 px-4 sm:flex-row sm:px-6 lg:px-8">
-<p class="text-sm text-text-light/70 dark:text-text-dark/70">© 2024 El Capitan Mariscos y Tacos. All Rights Reserved.</p>
-<div class="flex items-center gap-4">
-<a class="text-text-light/70 transition-colors hover:text-accent-red dark:text-text-dark/70 dark:hover:text-accent-orange" data-alt="Instagram link" href="#"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.85s.012-3.584.07-4.85c.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"></path></svg></a>
-<a class="text-text-light/70 transition-colors hover:text-accent-red dark:text-text-dark/70 dark:hover:text-accent-orange" data-alt="Facebook link" href="#"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"></path></svg></a>
-</div>
-</div>
-</footer>
-</div>
-</div>
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
 
-</body></html>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-foreground-light dark:text-foreground-dark">
+  <div class="relative flex min-h-screen w-full flex-col">
+    <header
+      class="sticky top-0 z-50 w-full border-b border-foreground-light/10 bg-background-light/80 backdrop-blur-lg dark:border-foreground-dark/10 dark:bg-background-dark/80">
+      <div class="container mx-auto flex items-center justify-between whitespace-nowrap px-4 py-3">
+        <a class="flex items-center gap-3 text-foreground-light dark:text-foreground-dark" href="#">
+          <div class="size-6 text-primary">
+            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"
+                fill="currentColor"></path>
+            </svg>
+          </div>
+          <h2 class="text-lg font-bold">Mariscos y Tacos El Capitan</h2>
+        </a>
+        <nav class="hidden items-center gap-6 md:flex">
+          <a class="text-sm font-medium text-foreground-light/80 transition-colors hover:text-primary dark:text-foreground-dark/80"
+            href="#hero">Home</a>
+          <a class="text-sm font-medium text-foreground-light/80 transition-colors hover:text-primary dark:text-foreground-dark/80"
+            href="#about">About Us</a>
+          <a class="text-sm font-medium text-foreground-light/80 transition-colors hover:text-primary dark:text-foreground-dark/80"
+            href="./menu.html">Menu</a>
+          <a class="text-sm font-medium text-foreground-light/80 transition-colors hover:text-primary dark:text-foreground-dark/80"
+            href="#contact">Contact</a>
+        </nav>
+        <div class="flex items-center gap-4">
+          <a href="spanish.html"
+            class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 border border-foreground-light/20 bg-transparent text-sm font-bold transition-colors hover:bg-foreground-light/5 dark:border-foreground-dark/20 dark:hover:bg-foreground-dark/5">
+            <span>EN / ES</span>
+        </a>
+        </div>
+      </div>
+    </header>
+    <main class="flex-1">
+      <section class="relative" id="hero">
+        <div class="container mx-auto px-4 py-24 sm:py-32 md:py-40">
+          <div
+            class="flex min-h-[480px] flex-col items-center justify-center gap-6 rounded-xl bg-cover bg-center bg-no-repeat p-4"
+            data-alt="A vibrant, delicious-looking platter of assorted seafood tacos."
+            style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuACl0W_VcK1g8NYNqmZWIUNx4s4kKDo1UNUwpHx-c6BIuIOpqd7MCZfH6RvQg1GQTXA-oHf3tQClDT79jbEco5Ou207xs8-8uUBvCfolcZu3999m2D18YQAANEc4VycPa2li9K3mUWXmcLwZMDBvk982M0WiSKOsbakkFY702q8k37WH_ujt9r8jYSIIuINBM59oX2JF1Jir8PeID53tKA5uq_ZopYRqqfAdYrQ0CA0BTqHpbQte-BFdILXbLCgv6WcC_5iIdZ0BG4a");'>
+            <div class="flex max-w-2xl flex-col gap-2 text-center">
+              <h1 class="text-4xl font-black leading-tight tracking-tighter text-white sm:text-5xl md:text-6xl">
+                Mariscos y Tacos El Capitan
+              </h1>
+              <p class="text-base font-normal leading-normal text-white/90 sm:text-lg">
+                Fresh seafood and authentic flavors from the heart of Mexico.
+              </p>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-background-light text-base font-bold tracking-wide transition-transform hover:scale-105">
+              <span class="truncate">View Full Menu</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="w-full text-accent-dark">
+        <svg class="bg-background-light dark:bg-background-dark" fill="none" viewBox="0 0 1440 100"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0 23.9515C0 23.9515 30.3448 31.9354 72.8391 31.9354C115.333 31.9354 144.925 15.9677 200.747 15.9677C256.569 15.9677 296.207 47.9031 360.207 47.9031C424.207 47.9031 462.667 0 523.586 0C584.506 0 621.793 47.9031 685.793 47.9031C749.793 47.9031 784.023 15.9677 842.069 15.9677C900.115 15.9677 929.707 39.9193 986.644 39.9193C1043.58 39.9193 1084.34 23.9515 1140.16 23.9515C1195.98 23.9515 1228.31 39.9193 1284.13 39.9193C1339.95 39.9193 1369.54 31.9354 1410.3 31.9354C1451.05 31.9354 1440 23.9515 1440 23.9515V100H0V23.9515Z"
+            fill="currentColor"></path>
+        </svg>
+      </div>
+      <section class="bg-accent-dark py-16 sm:py-24" id="about" >
+        <div class="container mx-auto px-4">
+          <div class="flex flex-col items-center gap-12">
+            <div class="text-center">
+              <h2 class="text-3xl font-bold tracking-tight text-background-light sm:text-4xl">Our Story</h2>
+            </div>
+            <p class="max-w-3xl text-center text-base font-normal leading-relaxed text-background-light/90" id="story">
+              Founded with a passion for the sea and a commitment to tradition, El Capitan brings generations of family
+              recipes to your table. We believe in using only the freshest, locally-sourced ingredients to create
+              authentic dishes that celebrate the rich culinary heritage of coastal Mexico.
+            </p>
+            <div class="w-full max-w-5xl @container">
+              <div
+                class="grid w-full grid-cols-1 gap-4 overflow-hidden @[480px]:grid-cols-[2fr_1fr] aspect-[3/2] sm:aspect-[2/1] md:aspect-[3/1]">
+                <div class="w-full rounded-xl bg-cover bg-center bg-no-repeat"
+                  data-alt="A close-up shot of grilled shrimp tacos with fresh cilantro and lime."
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCHmHLpI366i4McVzbYKdjXNRVgKeQMOosRYm1TtOCFAjGRhOixkc4NdwXHD_01V9TEd2ZRfduAIrPOT3vFFfpfRKstXEgnEq5h-bD77-4JDgPC5UOPQWcdMqmXcBYcbMutcuI86PXNdFcUDg9HvfjKV50lC7rlrzSgB--VGaYE3X2KrEkCoCi6QMxDpKLcqHV1zMJF3NhtSie72nwcTW3dt2E9HUNKxbB3HlXIuJXodtRweP23vpbcdCm13Dwd1lIOkhoXN034ZTl7");'>
+                </div>
+                <div class="hidden w-full rounded-xl bg-cover bg-center bg-no-repeat @[480px]:block"
+                  data-alt="The bright and airy interior of the El Capitan restaurant."
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD7JQI9G4mn4YEhRmnbeRUNAc_hV5_9VLUyScz9LqBOM8pLhnAviNkPQrIiJ31oszDro2wyYUWss3nV2NhMlo1SgW6rY773xkvBPYmlaaAIAZJKm8uAiT-rZuAFTiJ_VYqJPq71fkyxjZ81iMnPRBmhbeOgTB6Zn_EXQKm2yZVGZbsBub57yl6BwFEWIO63s2fDjeWYQO660V9oHyij0kmDu-DCp6_LO5zcpdicA17OjvVtTLgcYtZhGwFD68NWjTkW77Su-sOk7dgt");'>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-16 sm:py-24" id="contact">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-col items-center gap-12">
+            <div class="text-center">
+              <h2 class="text-3xl font-bold tracking-tight text-foreground-light dark:text-foreground-dark sm:text-4xl">
+                Visit Us</h2>
+              <p class="mt-2 text-base text-foreground-light/70 dark:text-foreground-dark/70">Have a question or want to
+                make a reservation? Get in touch!</p>
+            </div>
+            <div class="grid w-full max-w-5xl grid-cols-1 gap-12 md:grid-cols-2">
+              <form class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                  <label class="text-sm font-medium" for="name">Name</label>
+                  <input
+                    class="w-full rounded-lg border border-foreground-light/20 bg-background-light px-3 py-2 focus:border-primary focus:ring-primary dark:border-foreground-dark/20 dark:bg-background-dark"
+                    id="name" name="name" placeholder="Your Name" type="text" />
+                </div>
+                <div class="flex flex-col gap-2">
+                  <label class="text-sm font-medium" for="email">Email</label>
+                  <input
+                    class="w-full rounded-lg border border-foreground-light/20 bg-background-light px-3 py-2 focus:border-primary focus:ring-primary dark:border-foreground-dark/20 dark:bg-background-dark"
+                    id="email" name="email" placeholder="your.email@example.com" type="email" />
+                </div>
+                <div class="flex flex-col gap-2">
+                  <label class="text-sm font-medium" for="message">Message</label>
+                  <textarea
+                    class="w-full rounded-lg border border-foreground-light/20 bg-background-light px-3 py-2 focus:border-primary focus:ring-primary dark:border-foreground-dark/20 dark:bg-background-dark"
+                    id="message" name="message" placeholder="Your message..." rows="4"></textarea>
+                </div>
+                <button
+                  class="flex h-12 min-w-[84px] w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-6 text-base font-bold tracking-wide text-background-light transition-transform hover:scale-105"
+                  type="submit">
+                  <span class="truncate">Submit Inquiry</span>
+                </button>
+              </form>
+              <div class="flex flex-col gap-6">
+                <div class="aspect-video w-full rounded-xl bg-cover bg-center"
+                  data-alt="A map showing the location of the restaurant in a coastal city." data-location="Mexico"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCCEr2XiCGNYV_-QBZoPWBOdqZYTFj3BRqcVh2wk8HcVFIuDjvSgL8AvZHOA0poqAlMxsyeRr7Tdt2a3gy6OnnD0Qx8b5WSeGapkcy-2NTl-i7_FDIySsY1EfbOdtxTrD2wKMM2Mq_JSw5shWqWPS1LcEPYy5oKjM1-BPpDkeV2DU6zbe2ho1Hbb78CD5dFIUfECWUBUZNvqnHTlfaEs1XroW2xDNsjhT7cQfIhivmQHQDXwTXM6Rjqvifa7z34rWOwSL7C2WSOOiX-");'>
+                </div>
+                <div class="flex flex-col gap-4">
+                  <div class="flex items-start gap-4">
+                    <span class="material-symbols-outlined mt-1 text-primary">location_on</span>
+                    <div>
+                      <h3 class="font-bold">Address</h3>
+                      <p class="text-foreground-light/80 dark:text-foreground-dark/80">41 W Grant rd Tucson, AZ, Arizona 85705
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <span class="material-symbols-outlined mt-1 text-primary">call</span>
+                    <div>
+                      <h3 class="font-bold">Phone</h3>
+                      <p class="text-foreground-light/80 dark:text-foreground-dark/80">1234567890</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <span class="material-symbols-outlined mt-1 text-primary">schedule</span>
+                    <div>
+                      <h3 class="font-bold">Hours</h3>
+                      <p class="text-foreground-light/80 dark:text-foreground-dark/80">Mon - Sun: 11:00 AM - 10:00 PM
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-foreground-light/5 dark:bg-foreground-dark/5">
+      <div class="container mx-auto flex flex-col items-center justify-between gap-6 px-4 py-8 sm:flex-row">
+        <p class="text-sm text-foreground-light/60 dark:text-foreground-dark/60">© 2025 Mariscos y Tacos El Capitan. All
+          Rights Reserved.</p>
+        <div class="flex items-center gap-4">
+          <a class="text-foreground-light/70 transition-colors hover:text-primary dark:text-foreground-dark/70 dark:hover:text-primary"
+            href="#">
+            <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path clip-rule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                fill-rule="evenodd"></path>
+            </svg>
+          </a>
+          <a class="text-foreground-light/70 transition-colors hover:text-primary dark:text-foreground-dark/70 dark:hover:text-primary"
+            href="#">
+            <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm3.2 6.55c.01.12.01.24.01.37c0 3.77-2.87 8.12-8.12 8.12c-1.61 0-3.11-.47-4.37-1.28c.22.03.45.04.68.04c1.34 0 2.57-.46 3.56-1.22c-1.25-.02-2.31-.85-2.67-1.99c.17.03.35.05.53.05c.26 0 .51-.03.75-.1c-1.3-.26-2.28-1.41-2.28-2.79v-.04c.39.22.83.35 1.3.36c-.77-.52-1.28-1.4-1.28-2.4c0-.52.14-1.01.39-1.44c1.4 1.72 3.49 2.85 5.83 2.96c-.05-.21-.07-.43-.07-.66c0-1.6 1.3-2.9 2.9-2.9c.83 0 1.58.35 2.11.92c.66-.13 1.29-.37 1.86-.71c-.22.68-.68 1.25-1.29 1.61c.58-.07 1.14-.22 1.65-.45c-.39.58-.87 1.08-1.42 1.48z">
+              </path>
+            </svg>
+          </a>
+          <a class="text-foreground-light/70 transition-colors hover:text-primary dark:text-foreground-dark/70 dark:hover:text-primary"
+            href="#">
+            <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path clip-rule="evenodd"
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919A48.978 48.978 0 0112 2.163zm0 3.064c-3.126 0-3.486.01-4.716.065c-2.45.113-3.638 1.323-3.752 3.752C3.51 10.514 3.5 10.874 3.5 14c0 3.126.01 3.486.065 4.716c.113 2.45 1.323 3.638 3.752 3.752c1.23.055 1.59.065 4.716.065c3.126 0 3.486-.01 4.716-.065c2.45-.113 3.638-1.323 3.752-3.752c.055-1.23.065-1.59.065-4.716c0-3.126-.01-3.486-.065-4.716c-.113-2.45-1.323-3.638-3.752-3.752C15.486 5.239 15.126 5.227 12 5.227zm0 2.177a6.6 6.6 0 100 13.2 6.6 6.6 0 000-13.2zm0 10.63a4.026 4.026 0 110-8.052 4.026 4.026 0 010 8.052zM18.803 7.197a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"
+                fill-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

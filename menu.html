@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Menu - Mariscos y Tacos El Capitan</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#C32C34",
+                        "accent-dark": "#0093E1",
+                        "accent-light": "#5FC6EB",
+                        "background-light": "#FFFFFF",
+                        "background-dark": "#111827",
+                        "text-light": "#1b0e0e",
+                        "text-dark": "#f0f2f5",
+                        "subtext-light": "#6b7280",
+                        "subtext-dark": "#9ca3af"
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+    <div class="relative flex min-h-screen w-full flex-col">
+        <header
+            class="sticky top-0 z-10 w-full border-b border-solid border-gray-200/80 dark:border-gray-700/80 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+            <div
+                class="mx-auto flex max-w-7xl items-center justify-between whitespace-nowrap px-4 sm:px-6 lg:px-8 py-3">
+                <div class="flex items-center gap-4">
+                    <div class="size-6 text-primary">
+                        <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Mariscos y Tacos El Capitan</h2>
+                </div>
+                <div class="hidden md:flex flex-1 justify-end gap-8">
+                    <div class="flex items-center gap-9">
+                        <a class="text-sm font-medium leading-normal hover:text-primary transition-colors"
+                            href="#">Home</a>
+                        <a class="text-sm font-medium leading-normal hover:text-primary transition-colors"
+                            href="#">About Us</a>
+                        <a class="text-sm font-medium leading-normal hover:text-primary transition-colors"
+                            href="#">Contact</a>
+                    </div>
+                    <button
+                        class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                        <span class="truncate">Order Now</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 sm:px-6 lg:px-8 py-10">
+            <div class="flex flex-wrap justify-between gap-3 mb-8">
+                <h1 class="text-4xl font-black leading-tight tracking-[-0.033em]">Our Menu / Nuestro Menú</h1>
+            </div>
+            <div class="flex flex-col space-y-12">
+                <section id="family">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Charolas Familiares / Family Trays</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Charola de Mariscos / Seafood Platter</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Una variedad de nuestros mejores mariscos, perfecta para compartir. / A variety of
+                                    our best seafood, perfect for sharing.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$45.00</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Charola de Tacos / Taco Platter</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    12 tacos de su elección, servidos con salsas y guarniciones. / 12 tacos of your
+                                    choice, served with salsas and garnishes.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="ceviches">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Ceviches de Camarón / Shrimp Ceviches</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Ceviche de Camarón 16oz / Shrimp Ceviche 16oz</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Camarón cocido en jugo de limón con tomate, cebolla y cilantro. / Shrimp cooked in
+                                    lime juice with tomato, onion, and cilantro.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$15.00</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Ceviche de Camarón 32oz / Shrimp Ceviche 32oz</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Doble porción de nuestro clásico ceviche de camarón. / Double portion of our classic
+                                    shrimp ceviche.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$28.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="tostadas">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Tostadas y Más / Tostadas &amp; More</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Tostada de Ceviche</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Tostada crujiente con nuestro ceviche de camarón fresco. / Crispy tostada topped
+                                    with our fresh shrimp ceviche.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$7.50</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Aguachile</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Camarones marinados en una salsa picante de chiles y limón. / Shrimp marinated in a
+                                    spicy chili and lime sauce.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$18.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="specialties">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Especialidades de la Casa / House Specialties</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-6 py-6 justify-between">
+                            <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-[80px]"
+                                data-alt="A sizzling plate of grilled octopus tentacles."
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDA_zUpUREx1INAD8V6RNPrrkbdcf-gMwsX3DpMppY6ndq2j_v3LWDiPVQp99_AKOgvYWQqgk_S3EobiXQijoYkaC2lWgwnCcVREn0FTWj_5hAd7coBvIOZ7iatEMLS4iOvMaUfG5cdzFDOY2jjnXhuYe02K2MSi_1gI58QXAaz05nQB4Q33dnc0ZjFhINsV7rF_vOhQT4qBgJJrb1Mcyz5bt8ZeHp-tgBjnx7cgp8HACaoF0TU3onl0GRSjHuNtKm3eg2u4CUQrEsN");'>
+                            </div>
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Pulpo a las Brasas / Grilled Octopus</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Pulpo tierno a la parrilla con un toque de ajo y paprika. / Tender grilled octopus
+                                    with a hint of garlic and paprika.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$22.00</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 py-6 justify-between">
+                            <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-[80px]"
+                                data-alt="A large platter of mixed seafood."
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKYXRkgQCTAmeMcgrc90MWoDnsEEJigiipNnDy8lckijgbYBcmqvoSL3L2plfXUd_ENHlK45BpyyrMqxilhaOqW9ykhmGUoLywJ35rvTfmFVHdM8vW9q96fNVUZCWLkAVNyCb-SoBmjAjC4bHL23eBGBssFShr_k4_sjRv2PLdqeYKlv8VGVKuJmNb5d7yD7HvRdUE3LvYEOuXw9Ruda60Pa5kX-7ftnOyLA40b_3r9POVCz-agMljm7du0VDnCNIpZzkxYs-vm4w8");'>
+                            </div>
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Molcajete El Capitan / Captain's Molcajete</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Festín de mariscos con camarones, pulpo, pescado y más en una salsa picante. /
+                                    Seafood feast with shrimp, octopus, fish, and more in a spicy salsa.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$35.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="tacos">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Tacos</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Taco de Pescado / Fish Taco</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Crujiente taco de pescado estilo Baja con repollo y salsa cremosa. / Crispy
+                                    Baja-style fish taco with cabbage slaw and creamy sauce.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$4.50</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Taco de Camarón / Shrimp Taco</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Camarones a la parrilla servidos con pico de gallo y aguacate. / Grilled shrimp
+                                    served with pico de gallo and avocado.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$5.00</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Taco Gobernador / Governor's Taco</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Taco de camarón con queso derretido, pimientos y cebolla. / Shrimp taco with melted
+                                    cheese, bell peppers, and onions.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$6.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="hotbar">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Barra Caliente / Hot Bar</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Camarones al Ajillo / Garlic Shrimp</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Camarones salteados en una rica salsa de ajo y mantequilla. / Shrimp sautéed in a
+                                    rich garlic butter sauce.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$19.00</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Filete de Pescado Empanizado / Breaded Fish Fillet</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Filete de pescado crujiente servido con arroz y ensalada. / Crispy fish fillet
+                                    served with rice and salad.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$16.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="broths">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Caldos / Broths</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Caldo de Camarón / Shrimp Broth</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Caldo de camarón picante y sustancioso con verduras. / Hearty and spicy shrimp broth
+                                    with vegetables.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$17.00</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Caldo 7 Mares / 7 Seas Soup</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Combinación de mariscos en un rico caldo de tomate. / Combination of seafood in a
+                                    rich tomato broth.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$21.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="drinks">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Bebidas / Drinks</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Aguas Frescas</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Horchata, Jamaica, Tamarindo.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$3.50</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Refrescos Mexicanos / Mexican Sodas</p>
+                                <p
+                                    class="text-subtext-light dark:text-subtext-dark text-sm font-normal leading-normal mt-1">
+                                    Jarritos, Sidral Mundet, Sangria Señorial.</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$4.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="extras">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Extras</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Guacamole</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$5.00</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Arroz / Rice</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$3.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="kids">
+                    <h2
+                        class="text-primary text-3xl font-bold leading-tight tracking-[-0.015em] border-b-2 border-accent-light pb-3 mb-6">
+                        Pa' los Plebes / For the Kids</h2>
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 divide-y md:divide-y-0 dark:divide-gray-700">
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Quesadilla de Queso / Cheese Quesadilla</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$6.00</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-6 justify-between">
+                            <div class="flex flex-1 flex-col justify-center">
+                                <p class="text-lg font-bold">Dedos de Pescado / Fish Sticks</p>
+                            </div>
+                            <div class="shrink-0">
+                                <p class="text-base font-medium leading-normal">$7.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>ﬁ

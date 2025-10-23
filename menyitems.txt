@@ -1,0 +1,230 @@
+
+create a bilingual, Englin/Spanish 2 page website for "mariscos y tacos El capitan" Include a hero section, About us, Menu, contact with contact form and location. place the menu in its own page.
+
+these are the menu items make them unique since some of them are repeated. 
+
+The client requested this color pallette #FFFFFF # #C32C34 #5FC6EB #0093E1
+
+Charola familiar Para 4 o 6 personas Charola fria 4-6 personas /cold tray (4-6people) Charola con camaron cocido, camaron curtido, pulpo, calamar, caracol, ceviche de camaron, pepino, cebolla morada, salsa especial y aguacate./Tray with cooked shrimp, pickled shrimp, octopus, squid, snail, shrimp ceviche, cucumber, red onion, special sauce and avocado $102.99 Charola caliente 4-6 personas/hot tray (4-6people) Tres platillos de barra caliente a elegir (filete empanizado,camarones empanizados,filete o camaron culichi,filete zarandeado), cuatro tacos capeados( pescado o camaron) y orden de toritos. Incluye tortillas, arroz, papas fritas y ensalada.//Choose from three hot bar dishes (breaded steak, breaded shrimp, Culichi steak or shrimp, or Zarandeado steak), four breaded tacos (fish or shrimp), and an order of toritos. Includes tortillas, rice, French fries, and salad. $102.99 Ceviche de camarón Ceviche de camaron32oz /shrimp ceviche 32oz ceviche de camaron ( camaron curtido, tomate, cebolla. cilantro, salsa especial y clamato) con aguacate/ Shrimp ceviche (pickled shrimp, tomato, onion, cilantro, special sauce, and clamato) with avocado $36.00 Ceviche de camaron32oz /shrimp ceviche 32oz Ceviche de camaron 24oz/ shrimp ceviche 24oz ceviche de camaron ( camaron curtido, tomate, cebolla. cilantro, salsa especial y clamato) con aguacate./Shrimp ceviche (pickled shrimp, tomato, onion, cilantro, special sauce, and clamato) with avocado $28.50 Ceviche de camaron 24oz/ shrimp ceviche 24oz Ceviche de camaron 16oz/ shrimp ceviche 16oz ceviche de camaron ( camaron curtido, tomate, cebolla. cilantro, salsa especial y clamato) con aguacate./Shrimp ceviche (pickled shrimp, tomato, onion, cilantro, special sauce, and clamato) with avocado $20.79 Ceviche de camaron 16oz/ shrimp ceviche 16oz Tostadas y mas Orden de Toritos (5) / Toritos Order (5) Camarón, queso crema, zanahoria, tocino acompañado de salsa especial. / Shrimp, cream cheese, bacon, served with special sauce. $15.99 Orden de Toritos (5) / Toritos Order (5) Vichi Especial / Special Vichi Incluye verdura (zanahoria y apio), camarón, pulpo, calamar, pescado, caracol./Includes vegetables (carrot and celery), shrimp, octopus, squid, fish, snail. $7.15 Vichi Especial / Special Vichi Camarón Cocido / Cooked Shrimp Cebolla morada, aguacate y salsa especial. / Red onion, cucumber and special sauce. $7.15 Camarón Cocido / Cooked Shrimp Pulpo / Octopus Cebolla morada, aguacate y salsa especial. / Red onion, avocado and special sauce. $8.77 Pulpo / Octopus Tostitos con Ceviche de Camarón / Tostitos with Shrimp Ceviche Tostitos con ceviche de camaron (camaron curtido, tomate, cebolla, cilantro)./Tostitos with shrimp ceviche (pickled shrimp, tomato, onion, cilantro) $16.88 Tostitos con Ceviche de Camarón / Tostitos with Shrimp Ceviche Ceviche Camarón / Shrimp Ceviche Cebolla, tomate, pepino, cilantro, limón y clamato. Este artículo puede servirse poco cocido. / Onion, tomato, cucumber, cilantro, lemon and clamato. This item can be served slightly undercooked. $7.15 Ceviche Camarón / Shrimp Ceviche Especialidades de la Casa / House Specialties Cóctel de Camarón Chico / Small Shrimp Cocktail Camaron cocido, tomate , cebolla, pepino ,aguacate , jugo de camarón y salsa especial./Cooked octopus, cucumber, red onion, avocado and special sauce $20.49 Cóctel de Camarón Chico / Small Shrimp Cocktail Cóctel de Camarón Chabela / Shrimp Chabela Cocktail Camarón cocido, cebolla, tomate, pepino, jugo de camarón y clamato. / Cooked shrimp, onion, tomato, cucumber, shrimp juice and clamato. $24.68 Cóctel de Camarón Chabela / Shrimp Chabela Cocktail Cóctel de Pulpo 16oz / Octopus Cocktail 16oz Pulpo cocido, jugo de camarón, tomate, cebolla, pepino, aguacate y salsa especial./Cooked octopus, cucumber, red onion, avocado and special sauce $22.99 Cóctel de Pulpo 16oz / Octopus Cocktail 16oz Campechana Camaron cocido, jugo de camaron, aguacate, caracol, pulpo, calamar y salsa especial./Cooked shrimp, avocado, octopus, squid, snail, onion, cucumber, shrimp juice and clamato. $18.99 Campechana Campechana 32 oz Camarón cocido, pulpo, calamar, caracol, cebolla, pepino, jugo de camarón y clamato. / Cooked shrimp, octopus, squid, snail, onion, cucumber, shrimp juice and clamato. $36.39 Campechana 32 oz Coctel pulpo grande Pulpo cocido, salsa especial, tomate, cebolla, pepino , aguacate y jugo de camarón./Cooked octopus, special sauce, tomato, onion, cucumber, avocado and shrimp juice./ $29.99 Coctel pulpo grande Molcajete El Capitán Camarón cocido, camarón crudo, pulpo, calamares, caracol, cebolla, pepino, aguacate, salsa especial y banderilla. Este artículo puede servirse poco cocido. / Cooked shrimp, raw shrimp, octopus, squid, snails, onion, cucumber, avocado, special sauce and banderilla. This item could be served slightly undercooked. $36.00 Molcajete El Capitán Aguachile El Capitán 24oz Camarón crudo, camarón cocido, pulpo, cebolla morada, pepino, salsa especial, clamato, chile serrano. Este artículo puede servirse poco cocido. / Raw shrimp, cooked shrimp, octopus, red onion, cucumber, special sauce, clamato, serrano chili pepper. This item could be served slightly undercooked. $25.99 Tacos Taco de Camarón / Shrimp Taco Camarón capeado con repollo, zanahoria y aderezo especial./Breaded shrimp with cabbage, carrots, and special dressing. $5.19 Taco de Camarón / Shrimp Taco Taco Gobernador Quesadilla de camarón guisada con chile anahaiy ,tomate, cebolla y chipotle./Shrimp quesadilla stewed with anahaiy chili, tomato, onion and chipotle. $6.99 Taco Gobernador Taco de Carnitas / Pork Taco Carnita de puerco en adobo ( maciza, cuerito y mixta) con repollo, cebolla, cilindro y salsa de tomatillo./Pork carnitas in adobo sauce (solid, leather and mixed) with cabbage, onion, cylinder and tomatillo sauce $4.22 Taco de Carnitas / Pork Taco Combo 4 Tacos de Puerco y Soda de Lata / 4 Pork Tacos and a Canned Soda Combo 4 tacos de carnitas, con repollo cebolla, cilanto y salsa de tomatillo con bebida incluida./4 carnitas tacos, with cabbage, onion, cilantro and tomatillo salsa, with a drink included. $16.89 Combo 4 Tacos de Puerco y Soda de Lata / 4 Pork Tacos and a Canned Soda Combo Libra de carnitas Carnitas de puerco en adobo (maciza, cuero y mixta) incluye repollo ,cebolla, cilantro, limones 10 tortillas de maíz y salsa de tomatillo./Pork carnitas in adobo sauce (solid, leather and mixed) includes cabbage, onion, cilantro, lemons, 10 corn tortilla and tomatillo sauce. $29.89 Libra de carnitas Taco de Pescado / Fish Taco Pescado capeado con repollo, zanahoria, y aderezo especial.Breaded fish with cabbage, carrots, and special dressing. $4.55 Taco de Pescado / Fish Taco Taco de Marlín Taco dorado con queso, pescado marlin guisado con tomate y cebolla./taco with cheese, marlin fish stewed with tomato and onion. $6.99 Taco de Marlín Barra Caliente / Hot Bar Todos los platillos van acompañados de arroz, papas y ensalada. / All dishes come with rice, potatoes and salad. Filete Zarandeado / Zarandeado Filet Filete de pescado guisado con cebolla apio y aderezo especial de chipotle, incluye tortillas, arroz, papas y ensalada.Fish fillet stewed with onion, celery, and special chipotle dressing. Includes tortillas, rice, potatoes, and salad. $25.99 Filete Zarandeado / Zarandeado Filet Pescado frito grande Pescado frito (pargo o cabrilla)sazonado , incluye tortillas, salsa picó de gallo, arroz, papas y esalada.Fried fish (snapper or goatfish) seasoned, includes picó de gallo sauce, tortilla, rice, French fries and salad. $36.39 Pescado frito grande Pescado frito mediano Pescado frito (pargo o cabrilla) sazonado , incluye salsa de picó de gallo, tortilla , arroz , papas fritas y ensalada.Fried fish (snapper or goatfish) seasoned, includes picó de gallo sauce, tortilla, rice, French fries and salad. $31.19 Pescado frito mediano Camarones Rellenos / Stuffed Shrimp Camarones sazonados envueltos con tocino rellenos de queso fresco. Incluye tortillas, arroz, papas fritas y ensalada./Seasoned shrimp wrapped in bacon and stuffed with fresh cheese. Includes tortillas, rice, French fries, and salad. $25.99 Camarones Rellenos / Stuffed Shrimp Filete Empanizado / Breaded Filet Filete de pescado empanizado incluye tortillas, arroz, papas y ensalada.Breaded fish fillet includes tortillas, rice, potatoes and salad. $24.69 Filete Empanizado / Breaded Filet Caldos / Broths Sopa 7 Mares / 7 Seas Soup Caldo con camaron ,pescado, pulpo, calamar, caracol y verdura cocida( zanahoria y apio) incluye tortillas, limones y chiltepin $23.39 Sopa 7 Mares / 7 Seas Soup Sopa de Pescado / Fish Soup Sopa de pescado con verdura( zanahoria y apio) incluye tortillas de maíz, limones y chiltepin./Fish soup with vegetables (carrot and celery) includes corn tortillas, lemons and chiltepin $23.39 Sopa de Pescado / Fish Soup Sopa de Camarón / Shrimp Soup Sopa de camaron con verdura cocida( zanahoria y apio) incluye tortillas de maíz limón y chiltepin./shrimp soup with vegetables (carrot and celery) includes corn tortillas, lemons and chiltepin $23.39 Sopa de Camarón / Shrimp Soup Bebidas / Drinks Limonada 24 oz Limonada natural con hielos $3.88 Limonada 24 oz Jamaica / Hibiscus Flower Drink 32 oz Jamaica natural 32oz incluye hielos $5.19 Jamaica / Hibiscus Flower Drink 32 oz Botella de Agua / Bottled Water Agua natural $1.50 Botella de Agua / Bottled Water Agua Mineral / Mineral Water Topochico $3.99 Agua Mineral / Mineral Water Jamaica 24 oz Jamaica natural con hielos $3.88 Jamaica 24 oz Sodas Soda de bote ( coca regular, coca dieta, Sprite, y dr pepper) $2.99 Sodas Coca-Cola Mexicana / Mexican Coca-Cola Refresco de cola frío importado. $4.50 Coca-Cola Mexicana / Mexican Coca-Cola Extras Orden de Papas / Fries Order Orden de papas fritas , incluye ketchup./Order of fries, includes ketchup $5.19 Orden de Papas / Fries Order Orden de Arroz / Rice Order Arroz blanco guisado con apio y mantequilla./White rice stewed with celery and butter $4.99 Orden de Arroz / Rice Order Salsa and chips Chips fritos con salsa picó de gallo(tomate, cebolla, cilantro, chile serrano y limón)./Fried chips with picó de gallo sauce (tomato, onion, cilantro, serrano pepper and lemon) $7.99 Salsa and chips Guacamole & Chips aguacate, tomate, cebolla, cilantro y limón. Incluye chips./Avocado, tomato, onion, cilantro, and lemon. Includes chips. $9.99 Guacamole & Chips Orden de Aguacate / Avocado Order Porción de aguacate.Portion of avocado. $3.50 Orden de Aguacate / Avocado Order Pa' los Plebes / For the Kids Pescado y Papas / Fish and Fries Orden de papas fritas , pescado empanizado y capsu./Order of fries, breaded fish and capsu $11.69 Pescado y Papas / Fish and Fries Nuggets de Pollo / Chicken Nuggets Orden de papas fritas, nuggets de pollo y capsu./Order of fries, chicken nuggets and capsu $11.69 Nuggets de Pollo / Chicken Nuggets Camarón y Papas / Shrimp and Fries Orden de papas fritas, camarones empanizados y capsu./Order of fries, breaded shrimp and capsu $11.69 Camarón y Papas / Shrimp and Fries
+
+Charola familiar Para 4 o 6 personas
+
+Charola fria 4-6 personas /cold tray (4-6people)
+Charola con camaron cocido, camaron curtido, pulpo, calamar, caracol, ceviche de camaron, pepino, cebolla morada, salsa especial y aguacate./Tray with cooked shrimp, pickled shrimp, octopus, squid, snail, shrimp ceviche, cucumber, red onion, special sauce and avocado
+$102.99
+Charola caliente 4-6 personas/hot tray (4-6people)
+Tres platillos de barra caliente a elegir (filete empanizado,camarones empanizados,filete o camaron culichi,filete zarandeado), cuatro tacos capeados( pescado o camaron) y orden de toritos. Incluye tortillas, arroz, papas fritas y ensalada.//Choose from three hot bar dishes (breaded steak, breaded shrimp, Culichi steak or shrimp, or Zarandeado steak), four breaded tacos (fish or shrimp), and an order of toritos. Includes tortillas, rice, French fries, and salad.
+$102.99
+
+Ceviche de camarón
+Ceviche de camaron32oz /shrimp ceviche 32oz
+ceviche de camaron ( camaron curtido, tomate, cebolla. cilantro, salsa especial y clamato) con aguacate/ Shrimp ceviche (pickled shrimp, tomato, onion, cilantro, special sauce, and clamato) with avocado
+$36.00
+Ceviche de camaron32oz /shrimp ceviche 32oz
+Ceviche de camaron 24oz/ shrimp ceviche 24oz
+ceviche de camaron ( camaron curtido, tomate, cebolla. cilantro, salsa especial y clamato) con aguacate./Shrimp ceviche (pickled shrimp, tomato, onion, cilantro, special sauce, and clamato) with avocado
+$28.50
+Ceviche de camaron 24oz/ shrimp ceviche 24oz
+Ceviche de camaron 16oz/ shrimp ceviche 16oz
+ceviche de camaron ( camaron curtido, tomate, cebolla. cilantro, salsa especial y clamato) con aguacate./Shrimp ceviche (pickled shrimp, tomato, onion, cilantro, special sauce, and clamato) with avocado
+$20.79
+Ceviche de camaron 16oz/ shrimp ceviche 16oz
+
+
+Tostadas y mas
+Orden de Toritos (5) / Toritos Order (5)
+Camarón, queso crema, zanahoria, tocino acompañado de salsa especial. / Shrimp, cream cheese, bacon, served with special sauce.
+$15.99
+Orden de Toritos (5) / Toritos Order (5)
+Vichi Especial / Special Vichi
+Incluye verdura (zanahoria y apio), camarón, pulpo, calamar, pescado, caracol./Includes vegetables (carrot and celery), shrimp, octopus, squid, fish, snail.
+$7.15
+Vichi Especial / Special Vichi
+Camarón Cocido / Cooked Shrimp
+Cebolla morada, aguacate y salsa especial. / Red onion, cucumber and special sauce.
+$7.15
+Camarón Cocido / Cooked Shrimp
+Pulpo / Octopus
+Cebolla morada, aguacate y salsa especial. / Red onion, avocado and special sauce.
+$8.77
+Pulpo / Octopus
+Tostitos con Ceviche de Camarón / Tostitos with Shrimp Ceviche
+Tostitos con ceviche de camaron (camaron curtido, tomate, cebolla, cilantro)./Tostitos with shrimp ceviche (pickled shrimp, tomato, onion, cilantro)
+$16.88
+Tostitos con Ceviche de Camarón / Tostitos with Shrimp Ceviche
+Ceviche Camarón / Shrimp Ceviche
+Cebolla, tomate, pepino, cilantro, limón y clamato. Este artículo puede servirse poco cocido. / Onion, tomato, cucumber, cilantro, lemon and clamato. This item can be served slightly undercooked.
+$7.15
+Ceviche Camarón / Shrimp Ceviche
+
+
+Especialidades de la Casa / House Specialties
+Cóctel de Camarón Chico / Small Shrimp Cocktail
+Camaron cocido, tomate , cebolla, pepino ,aguacate , jugo de camarón y salsa especial./Cooked octopus, cucumber, red onion, avocado and special sauce
+$20.49
+Cóctel de Camarón Chico / Small Shrimp Cocktail
+Cóctel de Camarón Chabela / Shrimp Chabela Cocktail
+Camarón cocido, cebolla, tomate, pepino, jugo de camarón y clamato. / Cooked shrimp, onion, tomato, cucumber, shrimp juice and clamato.
+$24.68
+Cóctel de Camarón Chabela / Shrimp Chabela Cocktail
+Cóctel de Pulpo 16oz / Octopus Cocktail 16oz
+Pulpo cocido, jugo de camarón, tomate, cebolla, pepino, aguacate y salsa especial./Cooked octopus, cucumber, red onion, avocado and special sauce
+$22.99
+Cóctel de Pulpo 16oz / Octopus Cocktail 16oz
+Campechana
+Camaron cocido, jugo de camaron, aguacate, caracol, pulpo, calamar y salsa especial./Cooked shrimp, avocado, octopus, squid, snail, onion, cucumber, shrimp juice and clamato.
+$18.99
+Campechana
+Campechana 32 oz
+Camarón cocido, pulpo, calamar, caracol, cebolla, pepino, jugo de camarón y clamato. / Cooked shrimp, octopus, squid, snail, onion, cucumber, shrimp juice and clamato.
+$36.39
+Campechana 32 oz
+Coctel pulpo grande
+Pulpo cocido, salsa especial, tomate, cebolla, pepino , aguacate y jugo de camarón./Cooked octopus, special sauce, tomato, onion, cucumber, avocado and shrimp juice./
+$29.99
+Coctel pulpo grande
+Molcajete El Capitán
+Camarón cocido, camarón crudo, pulpo, calamares, caracol, cebolla, pepino, aguacate, salsa especial y banderilla. Este artículo puede servirse poco cocido. / Cooked shrimp, raw shrimp, octopus, squid, snails, onion, cucumber, avocado, special sauce and banderilla. This item could be served slightly undercooked.
+$36.00
+Molcajete El Capitán
+Aguachile El Capitán 24oz
+Camarón crudo, camarón cocido, pulpo, cebolla morada, pepino, salsa especial, clamato, chile serrano. Este artículo puede servirse poco cocido. / Raw shrimp, cooked shrimp, octopus, red onion, cucumber, special sauce, clamato, serrano chili pepper. This item could be served slightly undercooked.
+$25.99
+
+
+Tacos
+Taco de Camarón / Shrimp Taco
+Camarón capeado con repollo, zanahoria y aderezo especial./Breaded shrimp with cabbage, carrots, and special dressing.
+$5.19
+Taco de Camarón / Shrimp Taco
+Taco Gobernador
+Quesadilla de camarón guisada con chile anahaiy ,tomate, cebolla y chipotle./Shrimp quesadilla stewed with anahaiy chili, tomato, onion and chipotle.
+$6.99
+Taco Gobernador
+Taco de Carnitas / Pork Taco
+Carnita de puerco en adobo ( maciza, cuerito y mixta) con repollo, cebolla, cilindro y salsa de tomatillo./Pork carnitas in adobo sauce (solid, leather and mixed) with cabbage, onion, cylinder and tomatillo sauce
+$4.22
+Taco de Carnitas / Pork Taco
+Combo 4 Tacos de Puerco y Soda de Lata / 4 Pork Tacos and a Canned Soda Combo
+4 tacos de carnitas, con repollo cebolla, cilanto y salsa de tomatillo con bebida incluida./4 carnitas tacos, with cabbage, onion, cilantro and tomatillo salsa, with a drink included.
+$16.89
+Combo 4 Tacos de Puerco y Soda de Lata / 4 Pork Tacos and a Canned Soda Combo
+Libra de carnitas
+Carnitas de puerco en adobo (maciza, cuero y mixta) incluye repollo ,cebolla, cilantro, limones 10 tortillas de maíz y salsa de tomatillo./Pork carnitas in adobo sauce (solid, leather and mixed) includes cabbage, onion, cilantro, lemons, 10 corn tortilla and tomatillo sauce.
+$29.89
+Libra de carnitas
+Taco de Pescado / Fish Taco
+Pescado capeado con repollo, zanahoria, y aderezo especial.Breaded fish with cabbage, carrots, and special dressing.
+$4.55
+Taco de Pescado / Fish Taco
+Taco de Marlín
+Taco dorado con queso, pescado marlin guisado con tomate y cebolla./taco with cheese, marlin fish stewed with tomato and onion.
+$6.99
+Taco de Marlín
+
+
+Barra Caliente / Hot Bar
+Todos los platillos van acompañados de arroz, papas y ensalada. / All dishes come with rice, potatoes and salad.
+Filete Zarandeado / Zarandeado Filet
+Filete de pescado guisado con cebolla apio y aderezo especial de chipotle, incluye tortillas, arroz, papas y ensalada.Fish fillet stewed with onion, celery, and special chipotle dressing. Includes tortillas, rice, potatoes, and salad.
+$25.99
+Filete Zarandeado / Zarandeado Filet
+Pescado frito grande
+Pescado frito (pargo o cabrilla)sazonado , incluye tortillas, salsa picó de gallo, arroz, papas y esalada.Fried fish (snapper or goatfish) seasoned, includes picó de gallo sauce, tortilla, rice, French fries and salad.
+$36.39
+Pescado frito grande
+Pescado frito mediano
+Pescado frito (pargo o cabrilla) sazonado , incluye salsa de picó de gallo, tortilla , arroz , papas fritas y ensalada.Fried fish (snapper or goatfish) seasoned, includes picó de gallo sauce, tortilla, rice, French fries and salad.
+$31.19
+Pescado frito mediano
+Camarones Rellenos / Stuffed Shrimp
+Camarones sazonados envueltos con tocino rellenos de queso fresco. Incluye tortillas, arroz, papas fritas y ensalada./Seasoned shrimp wrapped in bacon and stuffed with fresh cheese. Includes tortillas, rice, French fries, and salad.
+$25.99
+Camarones Rellenos / Stuffed Shrimp
+Filete Empanizado / Breaded Filet
+Filete de pescado empanizado incluye tortillas, arroz, papas y ensalada.Breaded fish fillet includes tortillas, rice, potatoes and salad.
+$24.69
+Filete Empanizado / Breaded Filet
+
+
+Caldos / Broths
+Sopa 7 Mares / 7 Seas Soup
+Caldo con camaron ,pescado, pulpo, calamar, caracol y verdura cocida( zanahoria y apio) incluye tortillas, limones y chiltepin
+$23.39
+Sopa 7 Mares / 7 Seas Soup
+Sopa de Pescado / Fish Soup
+Sopa de pescado con verdura( zanahoria y apio) incluye tortillas de maíz, limones y chiltepin./Fish soup with vegetables (carrot and celery) includes corn tortillas, lemons and chiltepin
+$23.39
+Sopa de Pescado / Fish Soup
+Sopa de Camarón / Shrimp Soup
+Sopa de camaron con verdura cocida( zanahoria y apio) incluye tortillas de maíz limón y chiltepin./shrimp soup with vegetables (carrot and celery) includes corn tortillas, lemons and chiltepin
+$23.39
+Sopa de Camarón / Shrimp Soup
+
+
+Bebidas / Drinks
+Limonada 24 oz
+Limonada natural con hielos
+$3.88
+Limonada 24 oz
+Jamaica / Hibiscus Flower Drink 32 oz
+Jamaica natural 32oz incluye hielos
+$5.19
+Jamaica / Hibiscus Flower Drink 32 oz
+Botella de Agua / Bottled Water
+Agua natural
+$1.50
+Botella de Agua / Bottled Water
+Agua Mineral / Mineral Water
+Topochico
+$3.99
+Agua Mineral / Mineral Water
+Jamaica 24 oz
+Jamaica natural con hielos
+$3.88
+Jamaica 24 oz
+Sodas
+Soda de bote ( coca regular, coca dieta, Sprite, y dr pepper)
+$2.99
+Sodas
+Coca-Cola Mexicana / Mexican Coca-Cola
+Refresco de cola frío importado.
+$4.50
+Coca-Cola Mexicana / Mexican Coca-Cola
+
+
+Extras
+Orden de Papas / Fries Order
+Orden de papas fritas , incluye ketchup./Order of fries, includes ketchup
+$5.19
+Orden de Papas / Fries Order
+Orden de Arroz / Rice Order
+Arroz blanco guisado con apio y mantequilla./White rice stewed with celery and butter
+$4.99
+Orden de Arroz / Rice Order
+Salsa and chips
+Chips fritos con salsa picó de gallo(tomate, cebolla, cilantro, chile serrano y limón)./Fried chips with picó de gallo sauce (tomato, onion, cilantro, serrano pepper and lemon)
+$7.99
+Salsa and chips
+Guacamole & Chips
+aguacate, tomate, cebolla, cilantro y limón. Incluye chips./Avocado, tomato, onion, cilantro, and lemon. Includes chips.
+$9.99
+Guacamole & Chips
+Orden de Aguacate / Avocado Order
+Porción de aguacate.Portion of avocado.
+$3.50
+Orden de Aguacate / Avocado Order
+
+Pa' los Plebes / For the Kids
+Pescado y Papas / Fish and Fries
+Orden de papas fritas , pescado empanizado y capsu./Order of fries, breaded fish and capsu
+$11.69
+Pescado y Papas / Fish and Fries
+Nuggets de Pollo / Chicken Nuggets
+Orden de papas fritas, nuggets de pollo y capsu./Order of fries, chicken nuggets and capsu
+$11.69
+Nuggets de Pollo / Chicken Nuggets
+Camarón y Papas / Shrimp and Fries
+Orden de papas fritas, camarones empanizados y capsu./Order of fries, breaded shrimp and capsu
+$11.69
+Camarón y Papas / Shrimp and Fries
